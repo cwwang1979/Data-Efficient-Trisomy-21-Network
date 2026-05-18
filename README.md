@@ -1,10 +1,10 @@
 
-# Data-Efficient Down Syndrome Network (DE-DSNet) v1.00
+# Data-Efficient Trisomy 21 Network (DE-T21Net) v1.00
 
 ## Associated Publications
 If you use this work or any part of this repository in your research, please cite the following paper:
 https://github.com/cwwang1979/Down-Syndrome-Net
-- (Under submission) Wang et al. (2025) Deep learning for early Down syndrome screening on first-trimester ultrasound images. IEEE Journal of Biomedical and Health Informatics (JBHI)
+- (Under submission) Wang et al. (2026) Fast Lightweight Deep Learning for Early Trisomy 21 Screening in First-Trimester Ultrasound Imaging. Computers in Biology and Medicine
 - (Under submission) Wang et al. (2026) A Comprehensive First-Trimester Fetal Ultrasound Dataset for Early Down Syndrome Screening. Nature Scientific Data
 ## Setup
 
@@ -16,7 +16,7 @@ https://github.com/cwwang1979/Down-Syndrome-Net
 - Python (3.8.20), opencv-python (4.11.0.86), PyTorch (2.4.1), torchvision (0.19.1).
 
 #### Download
-The Down syndrome dataset that supports the findings of this study has been made publicly accessible on [zip](https://drive.google.com/drive/folders/1cOJHQR1HMLbqTkAoDAGilKgpWxn6wqf4). Please use the password on the associated paper to decompress the file.
+The trisomy 21 dataset that supports the findings of this study has been made publicly accessible on [zip](https://drive.google.com/drive/folders/1cOJHQR1HMLbqTkAoDAGilKgpWxn6wqf4). Please use the password on the associated paper to decompress the file.
 
 The proposed DL model was deployed using the Pytorch framework in Python and the program code has been made publicly accessible on [zip](https://drive.google.com/drive/folders/1hD_05tudxcx7TBhWxnPPVxbX1CNlt3hP?usp=sharing). Please use the password on the associated paper to decompress the file.
 
@@ -232,7 +232,7 @@ cls_trained_model/
 
 ### 5. Inference 
 
-To generate the prediction outcome of the DE_DSNet model in Down syndrome dataset, 
+To generate the prediction outcome of the DE_DSNet model in trisomy 21 dataset, 
 
 #### Inference on the 2020-sample dataset with 5-fold cross-validation
 ```
@@ -309,7 +309,7 @@ Each output .txt file corresponds to one input image and lists the classes in de
 ```
 For this study:
 
-pos = Down syndrome fetus
+pos = Fetus with trisomy 21 
 
 neg = Normal fetus
 
