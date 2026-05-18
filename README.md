@@ -3,7 +3,7 @@
 
 ## Associated Publications
 If you use this work or any part of this repository in your research, please cite the following paper:
-https://github.com/cwwang1979/Down-Syndrome-Net
+https://github.com/cwwang1979/Data-Efficient-Trisomy-21-Network
 - (Under submission) Wang et al. (2026) Fast Lightweight Deep Learning for Early Trisomy 21 Screening in First-Trimester Ultrasound Imaging. Computers in Biology and Medicine
 - (Under submission) Wang et al. (2026) A Comprehensive First-Trimester Fetal Ultrasound Dataset for Early Down Syndrome Screening. Nature Scientific Data
 ## Setup
